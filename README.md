@@ -10,7 +10,7 @@
 - **Feature:** NO₂ concentration (`x`)
 - **Dataset source:** India Air Quality Data (Kaggle link provided in assignment)
 
-## Transformation Parameters (from Roll Number)
+## Transformation Parameters
 Given:
 - \(a_r = 0.5 (r \bmod 7)\)
 - \(b_r = 0.3 ((r \bmod 5)+1)\)
@@ -30,7 +30,7 @@ z = x + a_r \sin(b_r x)
 
 ---
 
-## GAN Architecture Description (1D GAN)
+## GAN Architecture Description 
 
 ### Generator (MLP)
 - Input: latent noise vector \(\epsilon \sim \mathcal{N}(0,1)\), dimension = 8
@@ -88,34 +88,3 @@ rohan-malhotra-gan-pdf-assignment/
 pip install pandas numpy matplotlib scikit-learn torch
 ```
 
----
-
-## What to Send Me After Running (for README update)
-Please share:
-- Final PDF plot (real vs generated + KDE)
-- Training loss plot
-- Any printed metrics / observations you want included
-
-I will update this README with:
-- PDF plot image
-- Mode coverage observations
-- Training stability observations
-- Quality of generated distribution observations
-
----
-
-## Results (To Be Updated After Execution)
-
-### PDF Plot Obtained from GAN Samples
-*(Add plot image after notebook execution)*
-
-### Observations
-
-#### 1) Mode Coverage
-*(To be filled after execution)*
-
-#### 2) Training Stability
-*(To be filled after execution)*
-
-#### 3) Quality of Generated Distribution
-*(To be filled after execution)*
